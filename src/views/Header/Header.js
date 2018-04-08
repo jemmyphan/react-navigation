@@ -158,6 +158,7 @@ class Header extends React.PureComponent {
         truncatedTitle={truncatedBackButtonTitle}
         titleStyle={options.headerBackTitleStyle}
         width={width}
+        index={props.scene.index}
       />
     );
   };
@@ -188,6 +189,7 @@ class Header extends React.PureComponent {
         truncatedTitle={truncatedBackButtonTitle}
         titleStyle={options.headerBackTitleStyle}
         width={width}
+        index={props.scene.index}
       />
     );
   };
